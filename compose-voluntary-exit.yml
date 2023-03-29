@@ -19,5 +19,5 @@ services:
 
 networks:
   default:
-    name: ${CHARON_DOCKER_NETWORK:-charon-distributed-validator-node_dvnode}
+    name: ${CHARON_DOCKER_NETWORK:-charon-distributed-validator-node-1_dvnode}
     external: true
