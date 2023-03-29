@@ -10,7 +10,7 @@ services:
     image: consensys/teku:${TEKU_VERSION:-23.3.0}
     command: |
       voluntary-exit
-      --beacon-node-api-endpoint="http://charon:3600"
+      --beacon-node-api-endpoint="http://202.61.204.94:5052"
       --confirmation-enabled=false
       --validator-keys="/opt/charon/exit_keys:/opt/charon/exit_keys"
       --epoch=${EXIT_EPOCH:-112260}
